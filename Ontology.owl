@@ -142,6 +142,7 @@
     <!-- http://purl.org/caeda6/ontology#Estado -->
 
     <owl:Class rdf:about="http://purl.org/caeda6/ontology#Estado">
+        <owl:disjointWith rdf:resource="http://purl.org/caeda6/ontology#Ideb"/>
         <rdfs:comment>Estado</rdfs:comment>
     </owl:Class>
     
