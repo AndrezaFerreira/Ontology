@@ -69,7 +69,7 @@
         <rdfs:domain rdf:resource="http://purl.org/caeda6/ontology#Ideb"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <owl:propertyDisjointWith rdf:resource="http://purl.org/caeda6/ontology#Ciclo"/>
-        <owl:propertyDisjointWith rdf:resource="http://purl.org/caeda6/ontology#Evolução"/>
+        <owl:propertyDisjointWith rdf:resource="http://purl.org/caeda6/ontology#Evolucao"/>
         <owl:propertyDisjointWith rdf:resource="http://purl.org/caeda6/ontology#Fluxo"/>
         <owl:propertyDisjointWith rdf:resource="http://purl.org/caeda6/ontology#Nota"/>
         <rdfs:comment>Aprendizado</rdfs:comment>
@@ -83,7 +83,7 @@
     <owl:DatatypeProperty rdf:about="http://purl.org/caeda6/ontology#Ciclo">
         <rdfs:domain rdf:resource="http://purl.org/caeda6/ontology#Ideb"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <owl:propertyDisjointWith rdf:resource="http://purl.org/caeda6/ontology#Evolução"/>
+        <owl:propertyDisjointWith rdf:resource="http://purl.org/caeda6/ontology#Evolucao"/>
         <owl:propertyDisjointWith rdf:resource="http://purl.org/caeda6/ontology#Fluxo"/>
         <owl:propertyDisjointWith rdf:resource="http://purl.org/caeda6/ontology#Nota"/>
         <rdfs:comment>Ciclo</rdfs:comment>
@@ -92,15 +92,13 @@
     
 
 
-    <!-- http://purl.org/caeda6/ontology#Evolução -->
+    <!-- http://purl.org/caeda6/ontology#Evolucao -->
 
-    <owl:DatatypeProperty rdf:about="http://purl.org/caeda6/ontology#Evolução">
+    <owl:DatatypeProperty rdf:about="http://purl.org/caeda6/ontology#Evolucao">
         <rdfs:domain rdf:resource="http://purl.org/caeda6/ontology#Ideb"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <owl:propertyDisjointWith rdf:resource="http://purl.org/caeda6/ontology#Fluxo"/>
         <owl:propertyDisjointWith rdf:resource="http://purl.org/caeda6/ontology#Nota"/>
-        <rdfs:comment>Evolução</rdfs:comment>
-        <rdfs:label>Evolução</rdfs:label>
     </owl:DatatypeProperty>
     
 
